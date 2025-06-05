@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LYDIA STAKING PORTAL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="assets/logo.png" alt="LYDIA Logo" class="logo">
+        <h1>LYDIA STAKING PORTAL</h1>
+        <p>Wallet: <span id="wallet">-</span></p>
+        <p>Staked: <span id="staked">0</span></p>
+        <p>Earned: <span id="earned">0 LYDIA</span></p>
+        <input type="text" id="amount" placeholder="Amount to stake">
+        <div class="buttons">
+            <button onclick="stake()">Stake</button>
+            <button onclick="claimReward()">Claim Rewards</button>
+            <button onclick="withdraw()">Withdraw</button>
+            <button onclick="connectWallet()">Connect Wallet</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
